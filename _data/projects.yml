@@ -6,28 +6,28 @@
                users. Adheres to RESTful Routing practices.
  
 - title: Countdown Champ
-  link: #
+  link: https://github.com/ksogata/countdown_champ
   description: Simple ReactJS application that counts down to a date specified by a user.
                There is also a stopwatch application that can be set, in seconds, that alerts
                the user when time is up.
 
 - title: Music Master
-  link: #
+  link: https://github.com/ksogata/music_master
   description: A ReactJS application that uses the Spotify API to request information about
                music and artists. However, the Spotify API now requires an API key to access
                it's data.
   
 - title: Goal Coach
-  link: #
+  link: https://github.com/ksogata/goal_coach
   description: A ReactJS application that uses Firebase to authenticate users. Users can
                write various tasks and other users can complete the tasks.
   
 - title: Reminder Pro
-  link: #
+  link: https://github.com/ksogata/reminder_pro
   description: A ReactJS application that allows users to create a reminder, and have the 
                application alert them when the time and date has been met.
                
 - title: Color Game
   link: https://github.com/ksogata/colorGame
   description: A color guessing game written in JavaScript. Gives a RGB value and you choose
-               what color that corresponds to. <a href="/colorgame.html" target="_blank">Play here!</a>
+               what color that corresponds to.  <a href="/colorgame.html" target="_blank">Play here!</a>
