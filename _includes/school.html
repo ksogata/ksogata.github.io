@@ -1,0 +1,14 @@
+<div class="education" id="education">
+    <h3 class="section-header">Education</h3>
+    {% for education in site.data.education %}
+        <div class="education-content">
+            <p class="qualification">{{ education.qualification }} from</p>
+            <div id="school-logo">
+                <a href="{{ education.link }}" target="_blank"><img src="{{ education.image }}"></a>
+            </div>
+            <p class="period">{{ education.period }}</p>
+        </div>
+        
+        <!--<p class="description">{{ education.description }}</p>-->
+    {% endfor %}
+</div>

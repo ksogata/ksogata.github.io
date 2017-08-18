@@ -1,0 +1,182 @@
+body {
+    background: orange;
+    font-size: 150%;
+    color: white;
+}
+
+.ui.huge.header {
+    margin: 250px 0;
+    // margin: 0 auto;
+    text-align: center;
+    font-size: 600%;
+    color: white;
+}
+
+.section-header {
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 220%;
+    // border-bottom: 5px solid white;
+}
+
+.section-header:after {
+    content: '';
+    display: block;
+    height: 0.2em;
+    width: 60px;
+    margin: auto;
+    border-bottom: solid;
+}
+
+.about {
+    background: gray;
+
+    #about-paragraph {
+        font-size: 1em;
+        line-height: 1.25em;
+        text-align: justify;
+        margin: 1.25em 0;
+        padding-top: 3%;
+        margin-left: 5%;
+    }
+    
+    img {
+        max-width: 75%;
+        height: auto;
+        float: right;
+        // clear: both;
+    }
+    
+    #about-image {
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
+
+.work {
+    // position: relative;
+    // padding: 10px;
+    display: block;
+    // color: white;
+    margin: 2% auto;
+    
+    .section-header {
+        margin-bottom: 3%;
+    }
+    
+    .experience-description {
+        text-align: center;
+        font-size: 150%;
+        
+        .title {
+            margin-bottom: 0;
+        }
+        
+        .period {
+            
+        }
+    }
+    
+    img {
+        width: 450px;
+        height: auto;
+    }
+    
+    .task-header {
+        margin-bottom: 0;
+        text-decoration: underline;
+    }
+    
+    .tasks {
+        margin-top: 0;
+        list-style-type: none;
+        padding-left: 0;
+        
+        li {
+            margin: 0 0 10px 0;
+        }
+    }
+}
+
+.education {
+    // color: white;
+    background: gray;
+    text-align: center;
+    margin: 2% auto;
+    padding-bottom: 3%;
+    height: auto;
+    
+    .section-header {
+        padding-top: 2%;
+    }
+    
+    .qualification {
+        margin: 10px 0;
+    }
+    
+    .period {
+        margin-top: 10px;
+    }
+    
+    .education-content {
+        font-size: 150%;
+        margin-top: 3%;
+    }
+    
+    img {
+        max-width: 100%;
+        width: 450px;
+        height: auto;
+    }
+}
+
+.projects {
+    // margin-top: 10px;
+    // margin-top: 1%;
+    
+    .project-content {
+        margin-top: 2%;
+        text-align: center;
+        height: auto;
+        
+         .description {
+            width: 50%;
+            margin: 0 auto;
+            text-align: justify;
+        }
+    }
+}
+
+.contact {
+    // text-align: center;
+    padding-left: 10px;
+    background: gray;
+    padding: 2% 0;
+
+    p {
+        margin-top: 3%;
+        text-align: justify;
+        margin-left: 5%;
+        font-size: 125%;
+    }
+    
+    .contact-form {
+        width: 75%;
+        margin: 3% auto;
+    }
+}
+
+.footer.segment.form-page {
+    .ui.container {
+        text-align: center;
+    }
+}
+
+.anchor {
+  display: block;
+  height: 80px; /*same height as header*/
+  margin-top: -80px; /*same height as header*/
+  visibility: hidden;
+}

@@ -1,0 +1,33 @@
+- title: YelpCamp
+  link: https://github.com/ksogata/yelpcamp
+  description: Full-stack web application loosely modeled after Yelp. It is hosted on Heroku at this
+               <a href="https://pacific-dawn-88276.herokuapp.com" target="_blank">URL.</a> This site was
+               created using NodeJs, MongoDB, and ExpressJS. PassportJS was used for authentication of
+               users. Adheres to RESTful Routing practices.
+ 
+- title: Countdown Champ
+  link: #
+  description: Simple ReactJS application that counts down to a date specified by a user.
+               There is also a stopwatch application that can be set, in seconds, that alerts
+               the user when time is up.
+
+- title: Music Master
+  link: #
+  description: A ReactJS application that uses the Spotify API to request information about
+               music and artists. However, the Spotify API now requires an API key to access
+               it's data.
+  
+- title: Goal Coach
+  link: #
+  description: A ReactJS application that uses Firebase to authenticate users. Users can
+               write various tasks and other users can complete the tasks.
+  
+- title: Reminder Pro
+  link: #
+  description: A ReactJS application that allows users to create a reminder, and have the 
+               application alert them when the time and date has been met.
+               
+- title: Color Game
+  link: https://github.com/ksogata/colorGame
+  description: A color guessing game written in JavaScript. Gives a RGB value and you choose
+               what color that corresponds to. <a href="/colorgame.html" target="_blank">Play here!</a>

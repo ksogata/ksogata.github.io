@@ -1,0 +1,27 @@
+<div class="work" id="work">
+    <h3 class="section-header"><strong>Work Experience</strong></h3>
+    <div class="experience ui two column grid">
+        {% for experience in site.data.experience %}
+        <div class="column experience-description">
+            <p class="title">{{ experience.title }} for</p>
+            <div id="dd-logo">
+                <a href="{{ experience.link }}" target="_blank"><img src="{{ experience.image }}"></a>
+            </div>
+            <!--<p class="company">{{ experience.company }}</p>-->
+            <p class="period">{{ experience.period }}</p>
+        </div>
+        
+        <div class="column">
+            <h3 class="task-header">What I did:</h3>
+            <div class="description">
+                <ul class="tasks">
+                    {% for item in experience.description %}
+                        <li><i class="Checkmark icon"></i>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+</div>

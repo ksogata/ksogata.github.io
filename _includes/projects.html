@@ -1,0 +1,14 @@
+<div class="projects" id="projects">
+    <h3 class="section-header">Projects</h3>
+    <div class="project-content">
+        {% for project in site.data.projects %}
+            <p class="title">
+                <a href=" {{ project.link }}" target="_blank">
+                    {{ project.title }}
+                </a>
+            </p>
+            <p class="description">{{ project.description }}</p>
+            <br>
+        {% endfor %}
+    </div>
+</div>
