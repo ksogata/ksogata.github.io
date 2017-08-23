@@ -1,8 +1,8 @@
 <div class="work" id="work">
     <h3 class="section-header"><strong>Work Experience</strong></h3>
-    <div class="experience ui stackable grid">
+    <div class="experience ui stackable two column grid">
         {% for experience in site.data.experience %}
-        <div class="eight wide column experience-description">
+        <div class="column experience-description">
             <p class="title">{{ experience.title }} for</p>
             <div id="dd-logo">
                 <a href="{{ experience.link }}" target="_blank"><img class="fade" src="{{ experience.image }}"></a>
@@ -11,7 +11,7 @@
             <p class="period">{{ experience.period }}</p>
         </div>
         
-        <div class="eight wide column">
+        <div class="column">
             <h3 class="task-header">What I did:</h3>
             <div class="description">
                 <ul class="tasks">
