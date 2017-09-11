@@ -6,3 +6,7 @@
   description: "Relevant Coursework: Discrete Structures, Design and Analysis of Algorithms, 
                 Operating Systems, Programming Languages, Artificial Intelligence, Networks, 
                 Databases, Theory of Computation"
+                
+- qualification: AWS Developer - Associate
+  image: "../images/AWS_Certified_Logo.png"
+  period: "August 2017"
