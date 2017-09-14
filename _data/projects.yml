@@ -2,7 +2,7 @@
   link: https://github.com/ksogata/yelpcamp
   description: Full-stack web application loosely modeled after Yelp. It is hosted on Heroku at this
                <a href="https://pacific-dawn-88276.herokuapp.com" target="_blank">URL.</a> This site was
-               created using NodeJs, MongoDB, and ExpressJS. PassportJS was used for authentication of
+               created using NodeJS, MongoDB, and ExpressJS. PassportJS was used for authentication of
                users. Adheres to RESTful Routing practices.
  
 - title: Countdown Champ

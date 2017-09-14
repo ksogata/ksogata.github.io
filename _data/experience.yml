@@ -6,6 +6,6 @@
   description: 
     - "Increased revenue of company by building full-stack payment infrastructure."
     - "Visually represented data for analysis by creating a view with Google charts."
-    - "Increased user experience by implementing a module that would alert users of new videos through email."
+    - "Improved user experience by implementing a module that would alert users of new videos through email."
     - "Increased efficiency by developing a python script to download videos of state government hearings."
     - "Wrote unit tests to diagnose problems on website."
